@@ -1,0 +1,23 @@
+{
+    "name": "express-openapi-generator",
+    "version": "0.0.1",
+    "description": " A code generator for express-openapi to start from an OpenApi v2 specification",
+    "main": "index.js",
+    "bin": {
+        "apigen": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Sebastian <sebastian@progether.com>",
+    "license": "MIT",
+    "dependencies": {
+        "cli": "^1.0.1",
+        "diff": "^3.5.0",
+        "js-yaml": "^3.12.0",
+        "mkdirp": "^0.5.1",
+        "prettier": "^1.14.3",
+        "recast": "^0.16.0",
+        "recursive-readdir": "^2.2.2"
+    }
+}
