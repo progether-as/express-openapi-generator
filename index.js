@@ -752,7 +752,7 @@ function generateBaseApiDoc(existingFiles, apiDoc) {
     const version = getVersion(apiDoc);
 
     const baseApiDoc = Object.assign({}, apiDoc, {
-        paths: []
+        paths: {}
     });
 
     const relPath = `src/api/${version}/base-api-doc.yml`;
